@@ -1,4 +1,8 @@
 use std::io;
+// Divides the numbers 1,2,…,n into two sets of equal sum.
+// User input: interger n
+// Output: prints "YES" or "NO" if numbers from 1 to n are possible 
+// to distribute to two equal sets that have same sum.
 
 fn main() {
     let mut buffer = String::new();
