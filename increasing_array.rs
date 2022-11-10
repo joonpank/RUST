@@ -1,4 +1,15 @@
 use std::io;
+// Consider an array of n integers. We want to modify the array 
+// so that it is increasing, i.e., every element is at least 
+// as large as the previous element. On each move, we may 
+// increase the value of any element by one. For example:
+
+// Input:
+// 5
+// 3 2 5 1 7
+
+// Output:
+// 5
 
 fn main() {
     let mut buffer = String::new();
